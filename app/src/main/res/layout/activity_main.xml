@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tva1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textSize="100dp"
+        android:textColor="@color/purple_500"
+        android:text="Activity 1"
+        android:background="@color/light_blue"
+        />
+    <EditText
+        android:id="@+id/edit_text1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Enter your name"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textSize="50dp"
+        android:textColor="@color/medium_sea_green"
+        android:text="Switch to Activity 2"
+        android:onClick="button2OnClick"
+        tools:ignore="MissingConstraints,OnClick" />
+</LinearLayout>
+
+
